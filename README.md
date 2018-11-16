@@ -32,7 +32,7 @@ ToolPack
 	logger.LogPrintln("@STARTING DOWNLOAD@", fmt.Sprintf("Hello, my name is Nuts  |  VERSION: 3.02.001.016_HF3  |  TABLE: %s ", tableName)) //Пример строки для логирования, строка запишется в файл и выведется на экран
 - Round - Округление float64
     f = tp.Round(5.867868, 2) //5.86
-- SaveStruct и LoadStruct - Сохранение и загрузка структуры
+- SaveStruct и LoadStruct - Сохранение и загрузка структуры из Json
 
 ## Installation
 
