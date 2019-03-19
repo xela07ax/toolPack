@@ -11,9 +11,9 @@ import (
 
 
 type Logger struct {
-	filePath string
-	LogWriter *os.File
-	err error
+	filePath string //Имя дирректории для записи логов
+	LogWriter *os.File //Дескриптор файла
+	err error 
 }
 
 
